@@ -119,8 +119,10 @@ body.revealed #reveal-effect {
 
 #mute {
   position: absolute;
-  bottom: 1vmin;
-  right: 1vmin;
+  /*bottom: 30vmin;
+  right: 50vmin; */
+  top: 65%;
+  left: 50%;
   background: #ff000080;
   width: 7vmin;
   height: 7vmin;
