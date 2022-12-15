@@ -122,8 +122,8 @@ body.revealed #reveal-effect {
   bottom: 1vmin;
   right: 1vmin;
   background: #ff000080;
-  width: 6vmin;
-  height: 6vmin;
+  width: 7vmin;
+  height: 7vmin;
   cursor: pointer;
   border: 0.5vmin solid #151515;
 }
@@ -134,7 +134,8 @@ body.revealed #reveal-effect {
 #mute:before {
   content: "";
   border: 0.75vmin solid transparent;
-  height: 2vmin;
+  height: 4vmin;
+  /**/
   border-right: 2vmin solid #151515;
   position: absolute;
   border-left-width: 0;

@@ -121,21 +121,15 @@ function getRendererSize() {
 var alarm = document.getElementById("alarm");
 alarm.volume = 1.0; //volume level
 
-
-
-
-
-
-
 var mute = document.getElementById("mute");
 mute.addEventListener("click", function () {
+  alarm.load();
+  alarm.play();
 	if (this.className == "muted") {
-    alarm.load();
-    alarm.play()
-		alarm.muted = false;
+		alarm.muted = true;
 		this.classList.remove("muted");
 	} else {
-		alarm.muted = true;
+		alarm.muted = false;
 		this.classList.add("muted");
 	}
 });
