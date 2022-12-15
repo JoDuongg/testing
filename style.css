@@ -121,7 +121,7 @@ body.revealed #reveal-effect {
   position: absolute;
   /*bottom: 30vmin;
   right: 50vmin; */
-  top: 55%;
+  top: 50%;
   left: 50%;
   background: #ff000080;
   width: 7vmin;
