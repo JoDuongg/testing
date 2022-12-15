@@ -117,14 +117,8 @@ function getRendererSize() {
 
 //
 
-//var theCount;
+
 var alarm = document.getElementById("alarm");
-//var panel = document.getElementById("panel");
-//var turnOff = document.getElementById("turn-off");
-//var turnOffHor = document.getElementById("closing");
-//var detonate = document.getElementById("detonate");
-//var again = document.getElementById("again");
-//var panel2 = document.getElementById("panel2");
 alarm.volume = 1.0; //volume level
 
 
@@ -138,7 +132,7 @@ mute.addEventListener("click", function () {
 	if (this.className == "muted") {
     alarm.load();
     alarm.play()
-		//alarm.muted = false;
+		alarm.muted = false;
 		this.classList.remove("muted");
 	} else {
 		alarm.muted = true;
