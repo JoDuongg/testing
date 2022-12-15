@@ -116,3 +116,42 @@ body.loaded #reveal-effect {
 body.revealed #reveal-effect {
   display: none;
 }
+
+#mute {
+  position: absolute;
+  bottom: 1vmin;
+  right: 1vmin;
+  background: #ff000080;
+  width: 6vmin;
+  height: 6vmin;
+  cursor: pointer;
+  border: 0.5vmin solid #151515;
+}
+#mute.muted {
+  background: #8bc34a80;
+}
+
+#mute:before {
+  content: "";
+  border: 0.75vmin solid transparent;
+  height: 2vmin;
+  border-right: 2vmin solid #151515;
+  position: absolute;
+  border-left-width: 0;
+  top: 1.25vmin;
+  right: 1.25vmin;
+}
+#mute:after {
+  content: "";
+  border: 0vmin solid transparent;
+  height: 2vmin;
+  border-right: 1.5vmin solid #151515;
+  position: absolute;
+  top: 2vmin;
+  right: 3.5vmin;
+}
+
+#abort a {
+  text-decoration: none;
+  color: #d30303;
+}
